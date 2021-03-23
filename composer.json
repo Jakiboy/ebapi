@@ -1,0 +1,30 @@
+{
+  "name": "jakiboy/ebapi",
+  "version" : "0.0.1",
+  "type": "library",
+  "description": "Easy connection to Ebay Buy API (beta)",
+  "keywords": ["php","ebay","product","api","ebapi","feed","jakiboy"],
+  "homepage": "https://jakiboy.github.io/ebapi/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jihad Sinnaour",
+      "email": "mail@jihadsinnaour.com",
+      "role": "Founder"
+    },
+    {
+      "name": "Softgine",
+      "email": "e-mailing@soft-gine.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Ebapi\\" : "src/"
+    }
+  }
+}
